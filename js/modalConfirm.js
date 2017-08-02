@@ -6,7 +6,7 @@
 
 $(function(){
 	var modal = $(".millibox");//モーダルウインドウのクラス
-	var opacity = 0.5;//モーダル背景の透明度
+	var opacity = 0.8;//モーダル背景の透明度
 	var button = $(".button");//モーダル解除ボタンのクラス
 	var limit = 120;//Cookieの有効期限(分)
 	var cookie = $.cookie("modal");
