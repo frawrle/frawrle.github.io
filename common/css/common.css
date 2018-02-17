@@ -3,6 +3,8 @@
 	font-size:48px;
 	margin-bottom:24px;
 	color:#ffffff
+	display: flex;
+	align-items: center;
 }
 
 #olympic span{
