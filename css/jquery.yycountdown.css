@@ -6,19 +6,19 @@
 
 #timer .yycountdown-box .yyc-day{
 	font-size:3.0em;
-	color:#740A00;
+	color:red;
 }
 #timer .yycountdown-box .yyc-hou{
 	font-size:3.0em;
-	color:#740A00;
+	color:red;
 }
 #timer .yycountdown-box .yyc-min{
 	font-size:3.0em;
-	color:#740A00;
+	color:red;
 }
 #timer .yycountdown-box .yyc-sec{
 	font-size:3.0em;
-	color:#740A00;
+	color:red;
 }
 
 #timer .yycountdown-box .yyc-day-text,
