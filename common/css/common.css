@@ -1,16 +1,23 @@
 ﻿#olympic{
-	 
 	text-align:center;
-	padding-top:250px;
 	font-size:50px;
 	margin-bottom:24px;
+	margin-top:250px;
 	color:#ffffff;
-	
+	font-family: 'Special Elite', cursive;
+
 }
 
-#olympic span{
+#yuka{
+	text-align:center;
+	font-size:50px;
+	margin-bottom:24px;
+	margin-top:250px;
 	color:#ffffff;
+	font-family: 'Play', sans-serif;
 }
+
+
 
 #olympicDate{
 	text-align:center;
@@ -19,3 +26,9 @@
 	color:#ffffff;
 
 }
+<style>
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+</style>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Play');
+</style>
