@@ -4,7 +4,7 @@ window.onload = function () {
 };
 
 function draw () {
-    var canvas = document.getElementById('mycanvas');
+    var canvas = document.getElementById('myCanvas');
     if (!canvas || !canvas.getContext) return false;
     var ctx = canvas.getContext('2d');
 
