@@ -16,7 +16,7 @@ function draw () {
     for (var i = 0; i < 3; i++) {
         var x = Math.floor(Math.random() * 900);
         var y = Math.floor(Math.random() * 600);
-        var r = Math.floor(Math.random() * 40);
+        var r = Math.floor(Math.random() * 30);
         var s = kiri[Math.floor(Math.random() * 5)];
 
         ctx.font = "italic "+r+"px Verdana"; // 文字フォント指定
