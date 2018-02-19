@@ -1,0 +1,74 @@
+<!DOCTYPE HTML> 
+<html lang="ja"> 
+<head> 
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103062553-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-103062553-2');
+</script>
+
+<meta charset="UTF-8"> 
+<title>YUKAKIRI WORLDEND</title> 
+
+<link rel="stylesheet" type="text/css" href="./css/canvas.css">
+
+
+<link rel="stylesheet" href="./common/css/common.css">
+<link rel="stylesheet" href="./css/jquery.yycountdown.css">
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head> 
+<body style="background-color:black;">
+
+
+<div class="canvas-wrapper">
+<canvas style="width: 100vw; height: 100vh;" id="myCanvas"></canvas>
+</div>
+<script type="text/javascript" src='/js/wavie.min.js'></script>
+<script type="text/javascript">
+	wavie(myCanvas,'/js/wavie.json')
+</script>
+
+<script src='/js/yukakiriwrite.js'></script>
+
+<header>
+<h1></h1>
+</header><!-- header -->
+
+<div id="contents">
+<div class="inner">
+
+<h1></h1>
+<div id="olympic">
+	<span id="yuka"><ruby>YUKAKIRI<rt>ゆかきり</rt></ruby></span> <ruby><span style="color:red; font-size:55px;">W</span>ORLDEN<span style="color:red; font-size:55px;">D</span><rt><span style="color:red;">ワ</span>ールドエン<span style="color:red;">ド</span></rt></ruby>
+</div>
+<div id="olympicDate">
+	少女の声　<span style="color:red;">セ</span>カイの断末<span style="color:red;">魔</span>
+</div>
+<div id="timer"></div>
+
+</div><!-- inner -->
+</div><!-- contents -->
+
+<footer>
+<!-- footer -->
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.yycountdown.min.js"></script>
+<script type="text/javascript">
+	$("#timer").yycountdown({
+		endDateTime   : '2018/12/31 00:00:00'
+	});
+	
+	</script>
+	
+
+	
+</body>
+</html>
