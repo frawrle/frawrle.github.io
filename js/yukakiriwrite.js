@@ -14,7 +14,7 @@ function draw () {
     var kiri = ['結月ゆかり','東北きりたん','結月きりたん','終末','崩壊'];
 
     for (var i = 0; i < 3; i++) {
-        var x = Math.floor(Math.random() * 1100);
+        var x = Math.floor(Math.random() * 1500);
         var y = Math.floor(Math.random() * 600);
         var r = Math.floor(Math.random() * 30);
         var s = kiri[Math.floor(Math.random() * 5)];
