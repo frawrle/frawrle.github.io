@@ -41,18 +41,17 @@
 <script src='/js/yukakiriwrite.js'></script>
 
 <script type="text/javascript" src="js/jquery.jrumble.1.3.js"></script>
-	
+	<script src="js/jquery-1.7.2.min.js"></script>
+
 <script type="text/javascript" charset="utf-8">
-$(document).ready(function() {
-   	$('#yukakiric').jrumble({
-   		rangeX: 5, //ブルブルX
-   		rangeY: 0, //ブルブルY
-   		rangeRot: 0, //ブルブル角度
-   		rumbleSpeed: 10,//ブルブル速度
-		rumbleEvent: 'constant' //イベント（hover、click、mousedown、constant）
-			
-	});
+$('#yukakiric').jrumble({
+x: 5,
+y: 0,
+rotation: 0,
+speed: 100
 });
+
+$('#yukakiric').trigger('startRumble');
 </script>
 	
 <header>
