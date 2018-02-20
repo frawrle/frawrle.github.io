@@ -35,7 +35,7 @@ function draw () {
 ,'ƂɕʁX','䂩??x','ǂݏグ?','삷?邱?','^?[??','悤?ȕҏW','ŁA?ȒP?ɓ','䂩??x?́','Ȃ','ő??Ƃ',
 'ﾅ?ﾌ､','熙ｿ､ﾏｷ?','釥讀ｫ､熙','ﾎﾌｾ､ﾘ','ﾉ鬢ﾃ､ﾆ','ﾀｸ､ｭ','､ﾆ､讀ｯ','､讀ｫ､ｭ､','ｷ?釥','讀ｫ､'];
 
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 20; i++) {
         var x = Math.floor(Math.random() * 1300);
         var y = Math.floor(Math.random() * 600);
         var r = Math.floor(Math.random() * 30);
